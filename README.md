@@ -40,13 +40,13 @@ with available options:
 *       -out-compress                    (1 arg) :    output compression level (0:none, 9:best)  [default '0']
 
    [kmer count, advanced (developer) options]
- *         -minimizer-type   (1 arg) :    minimizer type (0=lexi, 1=freq)  [default '0']
- *         -minimizer-size   (1 arg) :    size of a minimizer  [default '8']
- *         -repartition-type (1 arg) :    minimizer repartition (0=unordered, 1=ordered)  [default '0']
- *      e                (0 arg) :    for encode
- *      d                (0 arg) :    for decode
- *      -nb-cores         (1 arg) :    nb cores  [default '0']
- *      -verbose          (1 arg) :    verbosity  [default '1']
+*          -minimizer-type   (1 arg) :    minimizer type (0=lexi, 1=freq)  [default '0']
+*          -minimizer-size   (1 arg) :    size of a minimizer  [default '8']
+*          -repartition-type (1 arg) :    minimizer repartition (0=unordered, 1=ordered)  [default '0']
+*       e                (0 arg) :    for encode
+*       d                (0 arg) :    for decode
+*       -nb-cores         (1 arg) :    nb cores  [default '0']
+*       -verbose          (1 arg) :    verbosity  [default '1']
 
 
 ### Examples
@@ -79,7 +79,6 @@ with available options:
 *	-s<n>		: insert cost, default: 1
 *	-t<n>		: threads count, default: 8
 *	-v		: verbose mode, default: false
-
 
 ### Examples
 

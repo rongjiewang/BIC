@@ -22,16 +22,13 @@ in one of the two modes:
 * `e` - encoding,
 * `d` - decoding,
 
-with available options:
-* `-i<file>` - input file,
-* `-f"<f1> <f2> ... <fn>"` - input file list,
-* `-g` - input compressed in `.gz` format,
-* `-o<f>` - output files prefix,
-* `-p<n>` - signature length, default: `8`,
-* `-s<n>` - skip-zone length, default: `12`,
-* `-b<n>` - FASTQ input buffer size (in MB), default: `256`,
-* `-t<n>` -  worker threads number, default: `8`,
-* `-v` - verbose mode, default: `false`.
+with mainly available options:
+* `-in <file>` - input file,
+* `-out <file>` - output file,
+* `-kmer-size` - size of a kmer  [default '31'],
+* `-abundance-min` - min abundance threshold for solid kmers  [default 'auto'],
+* `-nb-cores` -  worker threads number, default: `0`,
+* `-verbose` - verbose mode, default: `false`.
 
 ### Examples
 

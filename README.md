@@ -1,4 +1,4 @@
-#About BIC
+﻿#About BIC
 BIC - A bucket index correction based method for compression of genomic sequencing data.
 
 https://github.com/rongjiewang/BIC.git
